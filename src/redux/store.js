@@ -1,4 +1,5 @@
 import { createStore } from "redux";
+import { persistStore } from "redux-persist";
 // import { applyMiddleware } from "redux";
 // import logger from "redux-logger";
 
@@ -12,4 +13,6 @@ const store = createStore(
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 
-export default store;
+const persistor = persistStore(store);
+
+export { store, persistor };
