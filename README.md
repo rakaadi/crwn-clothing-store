@@ -6,4 +6,5 @@ This repository is a one of my React web app portfolio. This web app is a e-comm
 1. React Router
 2. React Redux
 3. Firebase for user authentication
-4. Deployment in Heroku
+4. Stripe API for processing payments
+5. Deployment in Heroku
