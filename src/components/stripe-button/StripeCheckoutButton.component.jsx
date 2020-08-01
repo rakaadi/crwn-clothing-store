@@ -1,5 +1,5 @@
 import React from "react";
-import { StripeCheckout } from "react-stripe-checkout";
+import StripeCheckout from "react-stripe-checkout";
 
 const StripeCheckoutButton = ({ price }) => {
     const priceForStripe = price * 100;
@@ -8,7 +8,7 @@ const StripeCheckoutButton = ({ price }) => {
     const onToken = token => {
         console.log(token);
         alert("Payment Successful");
-    }
+    };
 
     return (
         <StripeCheckout
@@ -21,9 +21,8 @@ const StripeCheckoutButton = ({ price }) => {
             amount={priceForStripe}
             panelLabel="Pay Now"
             token={onToken}
-            stripekey={publishableKey}
-        >
-        </StripeCheckout>
+            stripeKey={publishableKey}
+        />
     )
 };
 
