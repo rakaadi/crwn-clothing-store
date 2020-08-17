@@ -54,7 +54,8 @@ export const ContentContainer = styled.div`
     align-items: center;
     justify-content: center;
     border: 1px solid #7777;
-    background-color: rgba($color: #ffff, $alpha: 0.7);
+    background-color: white;
+    opacity: 0.7;
     position: absolute;
 `;
 
