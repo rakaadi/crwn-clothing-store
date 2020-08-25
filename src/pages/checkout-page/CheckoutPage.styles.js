@@ -33,8 +33,8 @@ export const HeaderBlock = styled.div`
 
 export const TotalContainer = styled.div`
     margin-top: 30px;
-      margin-left: auto;
-      font-size: 36px;
+    margin-left: auto;
+    font-size: 36px;
 `;
 
 export const WarningContainer = styled.div`
