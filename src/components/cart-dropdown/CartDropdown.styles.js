@@ -17,6 +17,10 @@ export const CartDropdownContainer = styled.div`
     button {
         margin-top: auto;
     }
+
+    @media screen and (max-width: 800px) {
+        margin-right: 17px;
+    }
 `;
 
 export const EmptyMessageContainer = styled.span`
