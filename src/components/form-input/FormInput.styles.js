@@ -38,6 +38,10 @@ export const FormInputContainer = styled.input`
     &:focus ~ label {
         ${shrinkLabelStyles}
     }
+
+    @media screen and (max-width: 800px) {
+        padding: 10px;
+    }
 `;
 
 export const FormInputLabel = styled.label`
