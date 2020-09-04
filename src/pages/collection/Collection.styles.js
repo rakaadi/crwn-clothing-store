@@ -18,5 +18,9 @@ export const CollectionItemsContainer = styled.div`
     & > div {
         margin-bottom: 30px;
     }
-`;
 
+    @media screen and (max-width: 800px) {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+`;
